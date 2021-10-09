@@ -1,0 +1,159 @@
+*{
+	margin: 0;
+	padding: 0;	
+}
+
+
+body, html{
+	background-color: #E3E5DA;
+	height: 100%;
+}
+
+nav{
+
+	width: 100%;
+	height: 50px;
+	background-color: rgba(0,0,0,.75);
+}
+
+ul{
+	float: left;
+	opacity: 100%;
+}
+
+ul li{
+	display: inline-block;
+	line-height: 50px;
+
+}
+
+ul li a{
+	font-family: georgia;
+	color: white;
+	text-decoration: none;
+	padding: 0 15px;
+}
+
+.main{
+	color: white;
+	height: 100%;
+	background-image: url("images/codeBackground.jpg");
+	background-position: center;
+	background-size: 100%;
+	position: relative;
+}
+
+.homeText{
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 30px;
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.aboutMe{
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 22px;
+	text-align: center;
+	position: relative;
+	top: 10%;
+}
+	
+
+.aboutMeInfo{
+	background-color: #202020;
+	border: groove;
+	border-color: white;
+	font-size: 20px;
+	padding: 15px;
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	line-height: 1.5;
+	
+}
+.aboutP1{
+	margin-bottom: 25px;
+}
+
+.planH1{
+	font-family: 'Barlow Condensed', sans-serif;s
+	font-size: 18px;
+	text-align: center;
+	position: relative;
+	top: 5%;
+}
+
+.planText{
+	text-align: left;
+	font-size: 18px;
+	position: absolute;
+	background-color: #202020;
+	border: groove;
+	border-color: white;
+	padding: 15px;
+	top: 60%;
+	left: 65%;
+	transform: translate(-50%, -50%);
+}
+
+.planP1{
+	margin-bottom: 25px;
+}
+
+.planImg1{
+	width: 400px;
+	height: auto;
+	position: absolute;
+	top: 25%;
+	left: 21%;
+}
+
+.planImg2{
+	width: 400px;
+	height: auto;
+	position: absolute;
+	top: 63%;
+	left: 21%;
+}
+
+.education{
+	text-align: center;
+	font-size: 18px;
+	font-family: 'Barlow Condensed', sans-serif;
+	position: relative;
+	top: 5%;
+}
+
+.eduText{
+	text-align: left;
+	font-size: 18px;
+	position: absolute;
+	background-color: #202020;
+	border: groove;
+	border-color: white;
+	padding: 15px;
+	top: 60%;
+	left: 65%;
+	transform: translate(-50%, -50%);
+}
+
+.educationP1{
+	margin-bottom: 25px;
+}
+
+.lindenwoodCrest{
+	height: 400px;
+	position: absolute;
+	top: 40%;
+	left: 22%;
+}
+
+.aboutPhoto{
+	height: 275px;
+	position: absolute;
+	top: 1%;
+	left: 67.5%
+}
